@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-image: url('header-bg.jpg'); /* Add a background image for the header */
+    background-image: url('../images/header-bg.jpg'); /* Use the new header background image */
     background-size: cover;
     background-position: center;
     color: white;
