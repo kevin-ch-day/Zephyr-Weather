@@ -6,6 +6,12 @@
     <title>Zephyr Weather Forecasting</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/alerts.js" defer></script>
+    <script src="assets/js/forecast.js" defer></script>
+    <script src="assets/js/historical.js" defer></script>
+    <script src="assets/js/map.js" defer></script>
+    <script src="assets/js/news.js" defer></script>
+    <script src="assets/js/weather.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -36,4 +42,15 @@
             </nav>
         </div>
     </header>
-    <main>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

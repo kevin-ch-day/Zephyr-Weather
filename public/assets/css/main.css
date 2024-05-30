@@ -9,3 +9,14 @@ main {
 main h2 {
     margin-top: 0;
 }
+
+.intro-section, .location-section, .weather-section, .forecast-section, .alerts-section, .map-section, .historical-section, .news-section, .updates-section {
+    margin-bottom: 20px;
+}
+
+.weather-section div, .forecast-section div, .alerts-section div, .map-section div, .historical-section div, .news-section div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

@@ -1,5 +1,5 @@
 <?php
-include('includes/utils.php');
+include('../includes/utils.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </form>
     </main>
     <footer>
-        <?php include('includes/footer.php'); ?>
+        <?php include('../includes/footer.php'); ?>
     </footer>
 </body>
 </html>

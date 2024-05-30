@@ -25,3 +25,9 @@
     height: 50px;
     margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+}
