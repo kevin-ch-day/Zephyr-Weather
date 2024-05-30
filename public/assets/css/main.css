@@ -1,0 +1,11 @@
+main {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-top: 0;
+}
