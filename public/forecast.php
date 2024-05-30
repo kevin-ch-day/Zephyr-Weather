@@ -6,6 +6,7 @@
     <title>Weather Forecast - Zephyr Weather Forecasting</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
     <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/forecast.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -18,17 +19,18 @@
             <section id="location-input" class="location-section">
                 <h3>Enter Your Location</h3>
                 <form id="location-form">
-                    <input type="text" id="location" name="location" placeholder="Enter city or ZIP code">
-                    <label for="start-date">Start Date:</label>
-                    <input type="date" id="start-date" name="start-date">
-                    <label for="end-date">End Date:</label>
-                    <input type="date" id="end-date" name="end-date">
+                    <input type="text" id="location" name="location" placeholder="Enter city or ZIP code" required>
                     <button type="submit">Get Forecast</button>
                 </form>
             </section>
 
             <div id="forecast-results" class="results-section">
-                <p>Loading forecast data...</p>
+                <div id="forecast-data">
+                    <p>Loading forecast data...</p>
+                </div>
+                <div id="map-data">
+                    <p>Loading map data...</p>
+                </div>
             </div>
         </section>
     </main>

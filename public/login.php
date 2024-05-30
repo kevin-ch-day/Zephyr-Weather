@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <header class="header">
-        <?php include('includes/header.php'); ?>
+        <?php include('../includes/header.php'); ?>
     </header>
     <main>
         <h2>Login</h2>
